@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Applegate Properties Private Limited | Building Land. Building Trust.</title>
+  <meta name="description" content="Hyderabad-based real estate development company with a proven legacy of land acquisition, layout development, farmland management across Telangana and Andhra Pradesh." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon">
+      <img src="assets/logo.png" alt="Apple Gate Logo" />
+    </div>
+    <div class="nav-logo-text">
+      <strong>Applegate Properties</strong>
+      <span>Private Limited</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#registration">Company Info</a></li>
+    <li><a href="#strengths">Why Us</a></li>
+    <li><a href="#vision">Vision</a></li>
+    <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <button class="nav-hamburger" id="menuToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ─── MOBILE MENU ─── -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="menuClose">✕</button>
+  <a href="#about"        onclick="closeMobileMenu()">About</a>
+  <a href="#projects"     onclick="closeMobileMenu()">Projects</a>
+  <a href="#registration" onclick="closeMobileMenu()">Company Info</a>
+  <a href="#strengths"    onclick="closeMobileMenu()">Why Us</a>
+  <a href="#vision"       onclick="closeMobileMenu()">Vision</a>
+  <a href="#contact"      onclick="closeMobileMenu()">Contact</a>
+</div>
+
+<!-- ─── HERO ─── -->
+<section class="hero" id="home">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">Trusted Real Estate Developer · Since 2025</div>
+      <h1 class="hero-title">
+        Building Land.<br>
+        <em>Building Trust.</em>
+      </h1>
+      <p class="hero-tagline">Applegate Properties Private Limited</p>
+      <p class="hero-desc">
+        Hyderabad-based real estate developers with a proven legacy across Telangana
+        and Andhra Pradesh — specializing in farmland, layout development,
+        and sustainable residential planning.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">Explore Projects</a>
+        <a href="#contact"  class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">100+</div>
+          <div class="hero-stat-label">Acres Developed</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">5+</div>
+          <div class="hero-stat-label">Completed Projects</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">2</div>
+          <div class="hero-stat-label">States · AP & TS</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-map-card">
+        <p class="hero-map-title">📍 Project Portfolio</p>
+        <div class="project-pins">
+          <div class="pin-item">
+            <div class="pin-dot completed"></div>
+            <div class="pin-text">
+              <div class="pin-name">Apple Gate Farms</div>
+              <div class="pin-loc">Nawabpet, Ranga Reddy</div>
+            </div>
+            <div class="pin-tag c">Completed</div>
+          </div>
+          <div class="pin-item">
+            <div class="pin-dot completed"></div>
+            <div class="pin-text">
+              <div class="pin-name">Parchan Farms</div>
+              <div class="pin-loc">Wade Muneguda, Ranga Reddy</div>
+            </div>
+            <div class="pin-tag c">Completed</div>
+          </div>
+          <div class="pin-item">
+            <div class="pin-dot completed"></div>
+            <div class="pin-text">
+              <div class="pin-name">Kandrika Layout</div>
+              <div class="pin-loc">Vijayawada, Andhra Pradesh</div>
+            </div>
+            <div class="pin-tag c">Completed</div>
+          </div>
+          <div class="pin-item">
+            <div class="pin-dot upcoming"></div>
+            <div class="pin-text">
+              <div class="pin-name">Nawabpet Extension</div>
+              <div class="pin-loc">Phase 2 · Ranga Reddy</div>
+            </div>
+            <div class="pin-tag u">Upcoming</div>
+          </div>
+          <div class="pin-item">
+            <div class="pin-dot ongoing"></div>
+            <div class="pin-text">
+              <div class="pin-name">Guntur District Layout</div>
+              <div class="pin-loc">Andhra Pradesh</div>
+            </div>
+            <div class="pin-tag o">Ongoing</div>
+          </div>
+        </div>
+        <div class="hero-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:#4caf7d"></div>Completed</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#c9a257"></div>Ongoing</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#5ba3e0"></div>Upcoming</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─── -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-img-wrapper">
+        <div class="about-img-inner">
+          <img src="assets/logo.png" alt="Applegate Properties" />
+        </div>
+      </div>
+      <div class="about-accent-card">
+        <div class="about-accent-num">100%</div>
+        <div class="about-accent-label">Legally Verified<br>Land Title Deeds</div>
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <p class="section-label">Who We Are</p>
+      <h2 class="section-title">A Legacy of <em>Ethical</em><br>Land Development</h2>
+      <div class="divider"></div>
+      <p class="section-desc">
+        Founded originally as Apple Gate Proprietary Company, we have successfully completed
+        multiple large-scale farmland and development projects across Telangana and Andhra Pradesh.
+        Applegate Properties Pvt. Ltd. stands for integrity, transparency, and innovation in real estate.
+      </p>
+      <div class="values-list">
+        <div class="value-item">
+          <div class="value-icon">📋</div>
+          <div class="value-text">
+            <strong>Integrity &amp; Transparency</strong>
+            <span>Every project backed by fully verified title deeds and government approvals.</span>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">🤝</div>
+          <div class="value-text">
+            <strong>Customer Commitment</strong>
+            <span>Long-term value creation for every buyer, investor, and partner.</span>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">🌱</div>
+          <div class="value-text">
+            <strong>Sustainable Vision</strong>
+            <span>Green spaces, modern infrastructure, and eco-conscious planning in every layout.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── REGISTRATION INFO ─── -->
+<section id="registration" class="reg-section">
+  <div class="reg-inner">
+    <p class="section-label" style="text-align:center;color:var(--gold-light);">Official Company Details</p>
+    <h2 class="section-title" style="color:var(--white);text-align:center;margin-bottom:0.5rem;">
+      Legally Registered &amp; <em style="color:var(--gold);">Fully Compliant</em>
+    </h2>
+    <p class="reg-subtitle">Incorporated under the Companies Act, 2013 · Ministry of Corporate Affairs, Government of India</p>
+    <div class="reg-grid">
+      <div class="reg-card">
+        <p class="reg-label">Company Name</p>
+        <p class="reg-value">Applegate Properties<br>Private Limited</p>
+      </div>
+      <div class="reg-card">
+        <p class="reg-label">CIN</p>
+        <p class="reg-value mono">U68100TS2025PTC208016</p>
+      </div>
+      <div class="reg-card">
+        <p class="reg-label">PAN · TAN</p>
+        <p class="reg-value mono">ABECA3820C<br><span class="reg-sub">HYDA39765F</span></p>
+      </div>
+      <div class="reg-card">
+        <p class="reg-label">Date of Incorporation</p>
+        <p class="reg-value">16 December 2025</p>
+      </div>
+      <div class="reg-card">
+        <p class="reg-label">Company Type</p>
+        <p class="reg-value">Company Limited<br>by Shares</p>
+      </div>
+      <div class="reg-card">
+        <p class="reg-label">Registrar</p>
+        <p class="reg-value">CRC, MCA · Manesar<br><span class="reg-sub">Uday Khomane, RoC</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROJECTS ─── -->
+<section id="projects">
+  <div class="projects-header reveal">
+    <div>
+      <p class="section-label">Our Portfolio</p>
+      <h2 class="section-title">Projects That <em>Define</em> Our Legacy</h2>
+    </div>
+    <div class="projects-tabs">
+      <button class="tab-filter active" onclick="filterProjects('all',this)">All</button>
+      <button class="tab-filter" onclick="filterProjects('completed',this)">Completed</button>
+      <button class="tab-filter" onclick="filterProjects('upcoming',this)">Upcoming</button>
+    </div>
+  </div>
+
+  <div class="projects-grid" id="projectsGrid">
+    <div class="project-card show reveal" data-type="completed">
+      <div class="project-card-img green">🏡</div>
+      <div class="project-card-body">
+        <span class="project-status completed">✓ Completed</span>
+        <h3>Apple Gate Farms</h3>
+        <div class="project-loc">📍 Nawabpet, Ranga Reddy District</div>
+        <p class="project-desc">Premium 50-acre farmland with internal roads, fencing, borewells, and plantation development. Fully developed, sold, and handed over.</p>
+        <div class="project-area">🌾 50 Acres · Farmland Development</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="completed">
+      <div class="project-card-img earth">🍃</div>
+      <div class="project-card-body">
+        <span class="project-status completed">✓ Completed</span>
+        <h3>Parchan Farms</h3>
+        <div class="project-loc">📍 Wade Muneguda, Ranga Reddy</div>
+        <p class="project-desc">Agricultural farmland project with complete development and sale. Known for fertile land and excellent irrigation connectivity.</p>
+        <div class="project-area">🌱 2 Acres · Agricultural Land</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="completed">
+      <div class="project-card-img gold-bg">🍊</div>
+      <div class="project-card-body">
+        <span class="project-status completed">✓ Completed</span>
+        <h3>Orange Farms</h3>
+        <div class="project-loc">📍 Muneguda</div>
+        <p class="project-desc">10-acre farmland with citrus plantation concept. Successfully developed and sold to multiple investors seeking agri-investment returns.</p>
+        <div class="project-area">🍊 10 Acres · Citrus Plantation Farm</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="completed">
+      <div class="project-card-img blue-bg">🌾</div>
+      <div class="project-card-body">
+        <span class="project-status completed">✓ Completed</span>
+        <h3>Kandrika Layout</h3>
+        <div class="project-loc">📍 Vijayawada, Andhra Pradesh</div>
+        <p class="project-desc">Layout development with plotted division and internal access roads. 100% sold and registered — a benchmark in the Vijayawada region.</p>
+        <div class="project-area">🏠 6 Acres · Plotted Layout</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="completed">
+      <div class="project-card-img green">🏠</div>
+      <div class="project-card-body">
+        <span class="project-status completed">✓ Completed</span>
+        <h3>Peritala Layout</h3>
+        <div class="project-loc">📍 Peritala, Andhra Pradesh</div>
+        <p class="project-desc">Full infrastructure and plotting layout completed. Future-ready for residential conversion or JV partnership — a strategic land bank asset.</p>
+        <div class="project-area">🏗 25 Acres · Residential Layout</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="upcoming">
+      <div class="project-card-img green">📈</div>
+      <div class="project-card-body">
+        <span class="project-status upcoming">⬡ Upcoming</span>
+        <h3>Nawabpet Extension</h3>
+        <div class="project-loc">📍 Nawabpet, Ranga Reddy (Phase 2)</div>
+        <p class="project-desc">Expansion of the original Apple Gate Farms with modern gated development and eco-sustainable design. A premium investment opportunity.</p>
+        <div class="project-area">🌿 50 Acres · Gated Eco Development</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="upcoming">
+      <div class="project-card-img blue-bg">🏢</div>
+      <div class="project-card-body">
+        <span class="project-status upcoming">⬡ Upcoming</span>
+        <h3>Kandrika Apartments</h3>
+        <div class="project-loc">📍 Kandrika, Vijayawada</div>
+        <p class="project-desc">Planned mid-rise apartment complex with urban amenities, community living focus, and green architecture in the heart of Vijayawada.</p>
+        <div class="project-area">🏙 1 Acre · Mid-Rise Apartment Block</div>
+      </div>
+    </div>
+    <div class="project-card show reveal" data-type="upcoming">
+      <div class="project-card-img earth">🏡</div>
+      <div class="project-card-body">
+        <span class="project-status ongoing">● Ongoing</span>
+        <h3>Guntur District Layout</h3>
+        <div class="project-loc">📍 Guntur District, Andhra Pradesh</div>
+        <p class="project-desc">Block-level layout development in progress. Strategic location near state highway and upcoming residential corridor in Guntur district.</p>
+        <div class="project-area">🛣 7–8 Acres · Residential Layout</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── STRENGTHS ─── -->
+<section id="strengths" class="strengths-section">
+  <div class="reveal">
+    <p class="section-label" style="color:var(--gold-light);">Why Choose Us</p>
+    <h2 class="section-title" style="color:var(--white);">Our Core <em style="color:var(--gold);">Strengths</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="strengths-grid">
+    <div class="strength-card reveal">
+      <div class="strength-icon">🏗</div>
+      <h3>Land Development Expertise</h3>
+      <p>End-to-end planning from purchase to layout completion — covering acquisition, approvals, infrastructure, and handover.</p>
+    </div>
+    <div class="strength-card reveal">
+      <div class="strength-icon">⚖️</div>
+      <h3>Transparency &amp; Legal Clarity</h3>
+      <p>100% verified title deeds and government approvals on every project. No hidden encumbrances, no legal risks.</p>
+    </div>
+    <div class="strength-card reveal">
+      <div class="strength-icon">🤝</div>
+      <h3>Customer Commitment</h3>
+      <p>Every project is designed for long-term investment value. We stand by our buyers from signing to handover.</p>
+    </div>
+    <div class="strength-card reveal">
+      <div class="strength-icon">🌿</div>
+      <h3>Sustainable Vision</h3>
+      <p>Integration of green spaces, plantation cover, and modern infrastructure for healthy, future-ready communities.</p>
+    </div>
+    <div class="strength-card reveal">
+      <div class="strength-icon">📈</div>
+      <h3>Growth-Oriented Leadership</h3>
+      <p>Expanding confidently across Telangana and Andhra Pradesh with a pipeline of strategic projects.</p>
+    </div>
+    <div class="strength-card reveal">
+      <div class="strength-icon">🗺️</div>
+      <h3>Regional Market Mastery</h3>
+      <p>Deep local knowledge in Ranga Reddy, Vijayawada, Guntur, and surrounding districts — giving buyers an insider edge.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── VISION ─── -->
+<section id="vision">
+  <div class="reveal" style="text-align:center;max-width:600px;margin:0 auto 1rem;">
+    <p class="section-label">Mission &amp; Vision</p>
+    <h2 class="section-title">The Purpose Behind <em>Every Acre</em></h2>
+    <div class="divider" style="margin:1.5rem auto;"></div>
+  </div>
+  <div class="vision-grid">
+    <div class="vm-card reveal">
+      <div class="vm-icon">🔭</div>
+      <p class="vm-label">Our Vision</p>
+      <h3>South India's Most Trusted Developer</h3>
+      <p>To become one of South India's most respected real estate developers — known for ethical land development, transparency, and sustainable layouts that create true and lasting investment value.</p>
+    </div>
+    <div class="vm-card mission reveal">
+      <div class="vm-icon">🎯</div>
+      <p class="vm-label" style="color:var(--green-mid);">Our Mission</p>
+      <h3>Transform Land into Communities</h3>
+      <p>To transform raw land into planned, developed communities that empower people to build their future homes, farms, and businesses on solid, verified foundations — one thoughtful acre at a time.</p>
+    </div>
+  </div>
+  <div class="founder-quote reveal">
+    <blockquote>
+      "At Apple Gate, we don't just sell land — we create value that grows over time.
+      Our mission is to build trust, one acre at a time."
+    </blockquote>
+    <cite>— Shaik Khaja Mohinuddin, Founder &amp; Managing Director</cite>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="contact-wrapper">
+
+    <!-- LEFT: Info -->
+    <div class="contact-info reveal">
+      <p class="section-label">Get In Touch</p>
+      <h2 class="section-title">Let's Build<br><em>Together</em></h2>
+      <div class="divider"></div>
+      <p class="section-desc">Interested in our projects or looking to partner with us? Reach out — we'd love to hear from you.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div>
+            <div class="contact-card-label">Registered Office</div>
+            <div class="contact-card-value">8-1-21/133, Surya Nagar, Vijay Nagar Colony, Asifnagar, Hyderabad – 500057, Telangana</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div>
+            <div class="contact-card-label">Branch Office</div>
+            <div class="contact-card-value">Mohinuddin Estate, Labbipet, Vijayawada</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div>
+            <div class="contact-card-label">Mobile</div>
+            <div class="contact-card-value"><a href="tel:+919966556786">+91 9966 55 6786</a></div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📧</div>
+          <div>
+            <div class="contact-card-label">Email</div>
+            <div class="contact-card-value"><a href="mailto:applegate@outlook.in">applegate@outlook.in</a></div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">🌐</div>
+          <div>
+            <div class="contact-card-label">Website</div>
+            <div class="contact-card-value"><a href="https://www.applegate.in" target="_blank">www.applegate.in</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Forms -->
+    <div class="contact-form reveal">
+      <div class="form-tabs">
+        <button class="form-tab active" onclick="switchTab('enquiry',this)">💬 Enquiry</button>
+        <button class="form-tab" onclick="switchTab('subscriber',this)">🔔 Subscribe</button>
+        <button class="form-tab" onclick="switchTab('agent',this)">🤝 Agent Registration</button>
+      </div>
+
+      <!-- Enquiry -->
+      <div id="tab-enquiry" class="tab-panel active">
+        <h3>Send Us a Message</h3>
+        <form onsubmit="handleSubmit(event,'success-enquiry')">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label>Interested In</label>
+            <select>
+              <option value="">Select a project or service</option>
+              <option>Nawabpet Extension (Phase 2) – Farmland</option>
+              <option>Kandrika Apartments – Vijayawada</option>
+              <option>Guntur District Layout</option>
+              <option>Joint Venture / Partnership</option>
+              <option>General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Your Message</label>
+            <textarea placeholder="Tell us what you're looking for..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message →</button>
+        </form>
+        <div id="success-enquiry" class="form-success-msg">✅ Thank you! We'll reach out to you shortly.</div>
+      </div>
+
+      <!-- Subscribe -->
+      <div id="tab-subscriber" class="tab-panel">
+        <h3>Stay Updated</h3>
+        <p class="form-intro">Subscribe to receive new project launches, land deals, and investment opportunities directly from Applegate Properties.</p>
+        <form onsubmit="handleSubmit(event,'success-subscriber')">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label>Phone / WhatsApp</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label>City / Location</label>
+            <input type="text" placeholder="e.g. Hyderabad, Vijayawada" />
+          </div>
+          <div class="form-group">
+            <label>I am interested in</label>
+            <select>
+              <option value="">Select preference</option>
+              <option>Farmland / Agricultural Plots</option>
+              <option>Residential Layouts</option>
+              <option>Apartment / Flat</option>
+              <option>Investment Opportunities</option>
+              <option>All Updates</option>
+            </select>
+          </div>
+          <button type="submit" class="form-submit">Subscribe Now 🔔</button>
+        </form>
+        <div id="success-subscriber" class="form-success-msg">✅ You're subscribed! We'll keep you updated on all new launches.</div>
+      </div>
+
+      <!-- Agent -->
+      <div id="tab-agent" class="tab-panel">
+        <h3>Marketing Agent Registration</h3>
+        <p class="form-intro">Join Apple Gate's growing network of marketing partners. Earn attractive commissions on every successful referral.</p>
+        <form onsubmit="handleSubmit(event,'success-agent')">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label>Phone / WhatsApp</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>City / District</label>
+              <input type="text" placeholder="e.g. Hyderabad, Guntur" required />
+            </div>
+            <div class="form-group">
+              <label>Years of Experience</label>
+              <select>
+                <option value="">Select experience</option>
+                <option>Fresher / No Experience</option>
+                <option>Less than 1 Year</option>
+                <option>1–3 Years</option>
+                <option>3–5 Years</option>
+                <option>5+ Years</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Current Occupation</label>
+            <input type="text" placeholder="e.g. Real Estate Agent, Business Owner..." />
+          </div>
+          <div class="form-group">
+            <label>Area of Operation / Coverage</label>
+            <input type="text" placeholder="e.g. Ranga Reddy, Vijayawada, Guntur District" />
+          </div>
+          <div class="form-group">
+            <label>Why do you want to join Apple Gate?</label>
+            <textarea placeholder="Tell us briefly about your network and goals..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Register as Agent 🤝</button>
+        </form>
+        <div id="success-agent" class="form-success-msg">✅ Registration received! Our team will contact you within 24–48 hours.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="footer-logo-icon">
+          <img src="assets/logo.png" alt="Applegate Properties" />
+        </div>
+        <div class="footer-logo-name">Applegate Properties Pvt. Ltd.</div>
+      </div>
+      <p>Building Land. Building Trust. — A legacy of ethical real estate development across Telangana and Andhra Pradesh.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#registration">Company Info</a></li>
+        <li><a href="#strengths">Why Choose Us</a></li>
+        <li><a href="#vision">Vision &amp; Mission</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Our Projects</h4>
+      <ul>
+        <li><a href="#projects">Apple Gate Farms – Nawabpet</a></li>
+        <li><a href="#projects">Kandrika Layout – Vijayawada</a></li>
+        <li><a href="#projects">Nawabpet Extension (Phase 2)</a></li>
+        <li><a href="#projects">Kandrika Apartments</a></li>
+        <li><a href="#projects">Guntur District Layout</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+919966556786">+91 9966 55 6786</a></li>
+        <li><a href="mailto:applegate@outlook.in">applegate@outlook.in</a></li>
+        <li><a href="https://www.applegate.in" target="_blank">www.applegate.in</a></li>
+        <li><a href="#">Hyderabad, Telangana</a></li>
+        <li><a href="#">Labbipet, Vijayawada</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-cin-bar">
+    <div class="footer-cin-item">
+      <span class="cin-label">CIN</span>
+      <span class="cin-value">U68100TS2025PTC208016</span>
+    </div>
+    <div class="footer-cin-item">
+      <span class="cin-label">PAN</span>
+      <span class="cin-value">ABECA3820C</span>
+    </div>
+    <div class="footer-cin-item">
+      <span class="cin-label">TAN</span>
+      <span class="cin-value">HYDA39765F</span>
+    </div>
+    <div class="footer-cin-item">
+      <span class="cin-label">Incorporated</span>
+      <span class="cin-value">16 December 2025</span>
+    </div>
+    <div class="footer-cin-item">
+      <span class="cin-label">Governing Law</span>
+      <span class="cin-value">Companies Act, 2013</span>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Applegate Properties Private Limited. All rights reserved.</p>
+    <p>Companies Act 2013 · MCA · Telangana &amp; Andhra Pradesh</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
